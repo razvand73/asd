@@ -1,0 +1,7 @@
+package mvc.model.state;
+
+import java.io.Serializable;
+
+public interface Stare extends Serializable {
+	void schimbaStare(Comanda comanda);
+}
